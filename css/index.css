@@ -85,11 +85,11 @@
     font-size: 0.875em;
     margin-top: 0.25em;
 }
-body{
+/* body{
     background-image: url('https://t3.ftcdn.net/jpg/06/33/22/94/360_F_633229474_uPudxb1UTLIvzs0iLeA9Mf0yws2kypAD.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 .text-center{
     color: white;
     font-size: 40px;
@@ -394,4 +394,22 @@ body{
 
 .portfolio-content p {
   margin: 0;
+}
+
+.portfolio-section{
+	background-image: url('https://st4.depositphotos.com/3930503/19991/i/450/depositphotos_199910082-stock-photo-light-blue-gradient-background-blue.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.slide{
+	width: 80%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	max-height: 900px;
+}
+.navbar-brand{
+	padding-left: 10%;
+}
+.carousel-item{
+	height: 90%;
 }

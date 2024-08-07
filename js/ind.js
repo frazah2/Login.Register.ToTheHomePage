@@ -7,44 +7,6 @@ function openForm() {
   }
   
   
-
-
-//   function start(event) {
-//     event.preventDefault();
-
-//     let username = document.getElementById('username').value.trim();
-//     let surname = document.getElementById('email').value.trim();
-//     let password = document.getElementById('password').value.trim();
-
-//     let isValid = true;
-
-//     document.getElementById('usernameError').innerHTML = "";
-//     document.getElementById('emailError').innerHTML = "";
-//     document.getElementById('passwordError').innerHTML = "";
-
-//     if (!surname) {
-//         document.getElementById('surnameError').innerHTML = "Surname is required.";
-//         isValid = false;
-//     }
-//     if (!email) {
-//         document.getElementById('emailError').innerHTML = "Name is required.";
-//         isValid = false;
-//     }
-//     if (!password) {
-//         document.getElementById('passwordError').innerHTML = "Password is required.";
-//         isValid = false;
-//     }
-//     if (isValid) {
-//         location.replace("index1.html")
-//     }
-// }
-
-document.onkeydown = (e) => {
-    if (e.key === "Enter" && document.getElementById('gender').value !== "") {
-        start(e);
-    }
-};
-
 function login(){
     let username = document.getElementById("username").value
     let password = document.getElementById("password").value
@@ -110,6 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function logUserList() {
+        alert('User added')
         console.log(users);
     }
 });
